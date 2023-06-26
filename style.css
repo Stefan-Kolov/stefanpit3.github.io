@@ -87,6 +87,9 @@ input[type=submit]{
     bottom: 0;
     width: 100%;
 }
+footer,header{
+    border-radius: 5px;
+}
 #main{
     min-height:790px;
 }
