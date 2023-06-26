@@ -1,0 +1,97 @@
+#header{
+    width: 100%;
+}
+header{
+    background: black;
+}
+header ul{
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+    padding: 20px 40px;
+    color: white;
+    font-family: Arial;
+}
+header li a{
+    color: white;
+    text-decoration:none;
+}
+li:hover{
+    background: deepskyblue;
+}
+footer{
+    background: black;
+    color: white;
+}
+footer ul{
+    text-align: right;
+}
+footer ul li{
+    display: inline-block;
+    font-family:Arial;
+    padding: 20px;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+}
+#main{
+    margin: auto;
+    text-align: justify;
+    width: 1000px;
+}
+#main h1{
+    text-align: center;
+}
+
+body{
+    background: url("pexels-aleksandar-pasaric-1323712.jpg");
+    width: 100%;
+}
+#image{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#main hr{
+    width: 300px;
+    color: black;
+}
+input[type=text],textarea{
+    display: block;
+    width: 500px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 5px auto 15px;
+}
+form{
+    text-align: center;
+}
+input[type=submit]{
+    background: deepskyblue;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 75px;
+    border: none;
+    cursor: pointer;
+}
+#footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+body{
+    width: 96%;
+    margin: auto;
+    min-width: 500px;
+}
+
+
+
