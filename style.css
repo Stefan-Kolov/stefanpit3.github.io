@@ -87,6 +87,9 @@ input[type=submit]{
     bottom: 0;
     width: 100%;
 }
+#main{
+    min-height:790px;
+}
 body{
     width: 96%;
     margin: auto;
