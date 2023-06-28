@@ -19,7 +19,7 @@ header li a{
     color: white;
     text-decoration:none;
 }
-li:hover:not(:first-of-type){
+li:hover{
     background: deepskyblue;
 }
 #main{
@@ -113,6 +113,7 @@ footer,header{
     background: deepskyblue;
     border: 0;
     color: white;
+    cursor: pointer;
 }
 #footer .kol2 input{
     width: 60%;
@@ -120,6 +121,10 @@ footer,header{
 #footer .kol2 h3{
     margin-bottom: 20px;
 }
+#header .active{
+    background: deepskyblue;
+}
+
 
 
 
