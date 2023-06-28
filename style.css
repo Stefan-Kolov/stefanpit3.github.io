@@ -1,8 +1,11 @@
+*{
+    font-family: Poppins,sans-serif;
+}
 #header{
     width: 100%;
 }
 header{
-    background: black;
+    background: #2A2A2A;
 }
 header ul{
     text-align: center;
@@ -11,30 +14,13 @@ header ul li{
     display: inline-block;
     padding: 20px 40px;
     color: white;
-    font-family: Arial;
 }
 header li a{
     color: white;
     text-decoration:none;
 }
-li:hover{
+li:hover:not(:first-of-type){
     background: deepskyblue;
-}
-footer{
-    background: black;
-    color: white;
-}
-footer ul{
-    text-align: right;
-}
-footer ul li{
-    display: inline-block;
-    font-family:Arial;
-    padding: 20px;
-}
-footer li a{
-    color: white;
-    text-decoration: none;
 }
 #main{
     margin: auto;
@@ -47,7 +33,10 @@ footer li a{
 
 body{
     background: url("pexels-aleksandar-pasaric-1323712.jpg");
-    width: 100%;
+    font-family: Poppins,sans-serif;
+    width: 96%;
+    margin: auto;
+    min-width: 500px;
 }
 #image{
     width: 400px;
@@ -82,16 +71,63 @@ input[type=submit]{
     border: none;
     cursor: pointer;
 }
+footer,header{
+    border-radius: 5px;
+}
+#main{
+    min-height: 790px;
+}
 #footer{
-    position: relative;
-    bottom: 0;
     width: 100%;
+    background:#2A2A2A;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
 }
-body{
-    width: 96%;
-    margin: auto;
-    min-width: 500px;
+#footer div{
+    text-align: center;
 }
+#footer .kol3{
+    float: right;
+    width: 30%;
+}
+#footer .kol2{
+    text-align: center;
+    width: 35%;
+    flex-grow: 2;
+}
+#footer .kol1{
+    width: 30%;
+    float: left;
+}
+#footer .kol1 a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+#footer .kol2 button{
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    background: deepskyblue;
+    border: 0;
+    color: white;
+}
+#footer .kol2 input{
+    width: 60%;
+}
+#footer .kol2 h3{
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
 
 
