@@ -83,11 +83,11 @@ footer,header{
     padding-bottom: 10px;
     margin-bottom: 10px;
     margin-top: 20px;
+    display: flex;
     border-radius: 5px;
 }
 #footer div{
     text-align: center;
-    display: inline-block;
 }
 #footer .kol3{
     width: 30%;
@@ -95,8 +95,7 @@ footer,header{
 #footer .kol2{
     text-align: center;
     width: 35%;
-
-    margin: auto;
+    flex-grow: 2;
 }
 #footer .kol1{
     width: 30%;
