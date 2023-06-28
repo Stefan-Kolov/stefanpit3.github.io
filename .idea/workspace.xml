@@ -42,6 +42,9 @@
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\kolov\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9bf53b07-fd15-46f6-943f-a087785c4c88" name="Changes" comment="" />
@@ -62,7 +65,7 @@
       <workItem from="1687810847835" duration="387000" />
       <workItem from="1687951792478" duration="1372000" />
       <workItem from="1687953285708" duration="19000" />
-      <workItem from="1687954586347" duration="1538000" />
+      <workItem from="1687954586347" duration="1855000" />
     </task>
     <servers />
   </component>
