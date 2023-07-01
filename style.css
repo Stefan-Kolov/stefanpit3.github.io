@@ -147,30 +147,22 @@ header{
     background: deepskyblue;
 }
 .imageLeft{
-    width: 300px;
+    width: 30%;
     height: auto;
     margin-left: 4%;
 }
 .imageCenter{
-    width: 300px;
+    width: 30%;
     height: auto;
 }
 .imageRight{
-    width: 300px;
+    width: 30%;
     height: auto;
     margin-right: 4%;
 }
-.imageLeft{
-    width: 300px;
-    height: auto;
-    margin-left: 4%;
-}
-.imageCenter{
-    width: 300px;
-    height: auto;
-}
+
 #imageVienna{
-    width: 500px;
+    width: 55%;
     height: auto;
     display: block;
     margin: auto auto 10px;
