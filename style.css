@@ -127,6 +127,9 @@ header{
 .footer .kol2 h3{
     margin-bottom: 20px;
 }
+.footer a:hover{
+    color: deepskyblue;
+}
 .header .active{
     background: deepskyblue;
 }
@@ -160,12 +163,14 @@ header{
     height: auto;
     margin-right: 4%;
 }
-
 #imageVienna{
     width: 55%;
     height: auto;
     display: block;
     margin: auto auto 10px;
+}
+.footer a:hover{
+    color: deepskyblue;
 }
 
 
